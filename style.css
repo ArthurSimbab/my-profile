@@ -1,0 +1,93 @@
+/* Text and background */
+
+body{
+	background-color: #1962B0;
+	color: #5CABFF;
+	font-family: 'Cabin', serif;
+	text-align:center;
+	font-weight: lighter;}
+
+h1{color: #FCBF56;
+	font-family: 'Cabin', sans-serif;   
+	font-weight: 160;
+    letter-spacing: 14px;
+    text-transform: uppercase;}
+
+h2 {color: #5CABFF;
+	font-family: 'Cabin', sans-serif;    
+	font-weight: 150;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: bold;}
+
+a {font-family: 'Cabin', serif;
+	text-decoration: none;
+	color:#FCBF56;
+	font-weight: bold;
+	text-transform: uppercase;}
+/* The body */
+.container {
+    width: 1000px;
+    margin: 40px auto}
+
+/* Responsive design */
+@media (max-width: 1000px) {
+  .container {
+    width: 700px;
+	}
+}
+@media (max-width: 700px) {
+  .container {
+    width: 500px;
+  }
+}
+/* Profile */
+.image-circle {
+	border-radius: 150px}
+
+/* Container  */
+.card-white {
+    background-color: white;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 4px; 
+    box-shadow: 0px 10px 30px;
+	margin-bottom: 40px}
+
+/* Button 1  */
+
+.btn-green {
+	background-color: #FCBF56;
+	padding: 10px 10px;
+	color: white;
+	border-radius: 10px; 
+	font-size: 20px;}
+
+
+.btn-green:hover {
+	background-color: black;}
+
+/* Social medias logos */
+.logo {
+	list-style: none;
+	padding-left: 0px;}
+
+.logo li {
+	display: inline;
+	padding: 30px;}
+
+.logo i {
+	font-size: 60px;
+	color: #FCBF56;}
+
+.list-inline i:hover {
+	color: black;}
+
+/* Margin   */
+#introduction p {
+    margin-bottom: 30px;}
+
+
+
+	
+	
